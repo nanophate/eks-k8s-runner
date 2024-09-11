@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: nanophate/aws-container-runner
+    resource_class: nanophate/eks-1-29-runner
     steps:
       - run: echo "Hi I'm on a Container Runner!"
 workflows:
