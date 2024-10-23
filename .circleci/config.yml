@@ -6,6 +6,7 @@ jobs:
     resource_class: nanophate/eks-1-29-runner
     steps:
       - run: echo "Hi I'm on a Container Runner!"
+      - run: echo "hooola"
 workflows:
   build-workflow:
     jobs:
